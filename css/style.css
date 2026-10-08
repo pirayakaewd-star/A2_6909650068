@@ -1,0 +1,105 @@
+ body{
+            background-image: url('../media/bg.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+
+            
+        }
+h1{
+            color:palevioletred;
+            font-weight:bold;
+            font-family:monospace;
+            font-size: 50px;
+            text-align: center;
+            -webkit-text-stroke: 3px rgb(255, 251, 225);
+            
+        }
+
+P{
+            color:saddlebrown;
+            font-size: 20px;
+            font-family:monospace;
+            text-align:left;
+        }
+img {
+    position: relative;
+    object-fit: cover;
+    left: 60%;
+    top: -250px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+.container {
+    width: 70%;
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color:ivory;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    
+    
+}
+.box1n2 {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+.box1 {
+    border-radius: 15px;
+    padding: 20px;
+    background-color: rgb(255, 236, 239);
+    box-sizing: border-box;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    width: 700px;
+    height: 300px;
+    
+}
+.box2 {
+    border-radius: 15px;
+    padding: 20px;
+    background-color:rgb(232, 255, 213);
+    box-sizing: border-box;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    width: 330px;
+    height: 350px;
+}
+.box3n4 {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    padding-top: 50px;
+}
+.box3 {
+    border-radius: 15px;
+    padding: 20px;
+    background-color:rgb(255, 253, 220);
+    box-sizing: border-box;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    width: 400px;
+    height: 300px;
+}
+.box4{
+    border-radius: 15px;
+    padding: 20px;
+    background-color:mistyrose;
+    box-sizing: border-box;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    width: 600px;
+    height: 350px;
+}
+a{
+    font-family:monospace;
+    font-size: 20px;
+    font-weight: bold;
+    color: saddlebrown;
+    top: 100px;
+    
+}
+ol{
+    font-family: monospace;
+    font-size: 20px;
+    color: saddlebrown;
+}
